@@ -1,0 +1,30 @@
+body {
+    background-color: #c9c9c9;
+}
+
+header {
+    background-color: #3d0476;
+    color: #c9c9c9;
+    text-transform: uppercase;
+    height: 50px;
+}
+
+.box_container{
+    display: block;
+    width: 600px;
+    height: 400px;
+    margin: 60px auto 0 auto;
+    
+    text-align: center;
+    text-transform: uppercase;
+
+    border: 7px solid #3d0476;
+    border-radius: 23px;
+    background-color: white;
+}
+.top_header{
+    background-color: #3d0476;
+    width: 600px;
+    height: 70px;
+    border-radius:auto;
+}
