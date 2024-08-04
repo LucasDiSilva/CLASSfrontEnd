@@ -22,6 +22,19 @@ header {
     border-radius: 23px;
     background-color: white;
 }
+.box_container p{
+font-size: 60px;
+}
+
+button{
+    width: 300px;
+    height: 100px;
+
+    background-color: #3d0476;
+    border-radius: 15px;
+}
+
+
 .top_header{
     background-color: #3d0476;
     width: 600px;
