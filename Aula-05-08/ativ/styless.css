@@ -1,0 +1,29 @@
+body{
+    background-color: #e49080;
+}
+
+.Left {
+    width: 200px;
+    height: 600px;
+
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 45px;
+
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.quadrado div{
+    width: 20px;
+    height: 20px;
+
+    
+    background-color: yellow;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
