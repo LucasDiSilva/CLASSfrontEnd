@@ -9,26 +9,15 @@
     
 </head>
 <body>
-    <script src="jogo.js">
-    <div class="game"> 
+<div class="container">
+    <h1>JOGO DA MEMORIA</h1>
+    <p>Cliques: <span id="click-counter">0</span></p>
+    <div class="game"></div>
+    <button class="reset" onclick="~window.location.reload()">RECOMEÇAR</button>
+    <div id="win-message" class="hidden">Hello World</div>
+</div>
 
-        <div class="item"> </div>
-        <div class="item"> </div>
-        <div class="item"> </div>
-        <div class="item"> </div>
-        <div class="item"> </div>
-        <div class="item"> </div>
-        <div class="item"> </div>
-        <div class="item"> </div>
-        <div class="item"> </div>
-        <div class="item"> </div>
-        <div class="item"> </div>
-        
-        </div>
-
-
-    </script>
+<script src="jogo.js" defer></script>
 
 </body>
-
 </html>
